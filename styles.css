@@ -1,0 +1,339 @@
+header {
+  background-image: url("surfbanner2.png");
+  background-repeat: none;
+  background-position:center;
+  width:100%;
+  height:465px;
+  margin-bottom:90px;
+}
+
+header h4 {
+  margin-left: 10%;
+  margin-top: 20px;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  color: #083452;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-right: 8%;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding:10px;
+  text-decoration: none;
+  margin-top: 8px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:-4;
+}
+
+a {
+  text-decoration: none;
+  color: #083452;
+}
+
+h1 {
+  width: 100%;
+  margin-right: 8%;
+  display:inline;
+  color: #083452;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 55px;
+  font-weight:400;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 0;
+  letter-spacing: -5px;
+}
+
+.byline {
+  margin-bottom:25px;
+  margin-top:5px;
+  margin-right:0;
+  width:40%;
+  height:30px;
+  position:relative;
+}
+
+.byline img{
+  width:50px;
+  height:40px;
+  margin-top:0;
+  margin-bottom:5;
+  position:relative;
+  display:inline;
+}
+
+.byline h6 {
+  padding:0;
+  margin-top: 17px;
+  margin-bottom:20px;
+  margin-left: 5px;
+  display:inline;
+  font-size:10px;
+  font-family: 'Oswald', sans-serif;
+  color: #1E72B2;
+  position:absolute;
+}
+
+.byline p {
+  display:inline;
+  font-size:10px;
+  font-family: 'Oswald', sans-serif;
+  color:lightgray;
+  position:absolute;
+  margin-left:70px;
+  margin-bottom:15;
+  margin-top:17px;
+  width: 150px;
+}
+
+.byline a {
+  color:lightgray;
+}
+
+section {
+  width: 48%;
+  margin-left:10%;
+  margin-right:8%;
+}
+
+.authorpic {
+  margin-top:0;
+  display:block;
+  margin-bottom:20px;
+}
+
+aside {
+  width: 15%;
+  margin-right: 10%;
+  padding: 10px;
+  vertical-align:top;
+}
+
+aside .sidebar1 {
+  width:100px;
+  height:80px;
+  text-align:center;
+  margin-left:42%;
+  margin-top:5px;
+}
+
+aside span {
+  margin-left:42%;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+  color: #1E72B2;
+  font-weight:lighter;
+}
+
+aside ul{
+  color:silver;
+  padding:0;
+  width: 250px;
+  list-style-type:none;
+  margin-left:35px;
+  margin-top:2px;
+}
+
+aside li {
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-size:15px;
+}
+
+aside img {
+  margin-top:40px;
+  width: 250px;
+  height: 270px;
+}
+
+aside h3 {
+  color:#1A69B0;
+  margin-bottom:0;
+  margin-top:30px;
+  width:300px;
+}
+
+.sidebarp {
+  width:300px;
+  margin-top:0.5em;
+  color: silver;
+}
+
+section,aside {
+  display: inline-block;
+  margin-bottom:50px;
+}
+
+section,p {
+  margin-top:0;
+  padding:0;
+  font-family: 'Oswald', sans-serif;
+  color:dimgray;
+}
+
+.woah {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #1E72B2;
+  border-left: solid gray 2px;
+  padding: 12px;
+  margin-left: 20px;
+}
+
+footer {
+  border-top: solid 1px;
+  border-color:#d3d3d3;
+  width:100%
+  height: 150px;
+  padding-top:50px;
+}
+
+/*footer a {
+-webkit-filter: opacity(30%) brightness(110%);
+
+}
+
+footer a:hover {
+-webkit-filter:none;
+color:white;
+}*/
+
+/*footer a: {
+background: linear-gradient(rgba(70, 130, 180, 0.6), rgba(70, 130, 180, 0.6));
+background-size: cover;
+background-position:center;
+}*/
+
+
+footer h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #1E72B2;
+  margin-top:0;
+  margin-bottom:40px;
+  margin-left: 25%;
+}
+
+.photobar>div {
+  height:320px;
+  width:25%;
+}
+
+.photobar {
+  background-color:#083452;
+  height:400px;
+}
+
+footer p {
+  position:absolute;
+  color:black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+  margin-left:8px;
+  bottom:0;
+  margin-bottom: 10px;
+  letter-spacing:-.05em;
+}
+
+footer p:hover{
+  color:white;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.8);
+}
+
+.surfergirl {
+  position:relative;
+  float:left;
+  background: linear-gradient(rgba(70, 130, 180, 0.6), rgba(70, 130, 180, 0.6)), url('surfergirlpic.jpg');
+}
+
+.surfergirl:hover{
+  background:none;
+  background-image:url('surfergirlpic.jpg');
+}
+
+.beer {
+  bottom:0;
+  left:0;
+  float:left;
+  position: relative;
+  margin-left:0;
+  background: linear-gradient(rgba(70, 130, 180, 0.6), rgba(70, 130, 180, 0.6)), url('beer.jpg');
+}
+
+.beer:hover{
+  background:none;
+  background-image:url('beer.jpg')
+}
+
+.zach {
+  bottom:0;
+  left:0;
+  float:left;
+  position:relative;
+  background: linear-gradient(rgba(70, 130, 180, 0.6), rgba(70, 130, 180, 0.6)), url('zachgalif.jpg');
+}
+
+.zach:hover{
+  background:none;
+  background-image:url('zachgalif.jpg')
+}
+
+.bar {
+  bottom:0;
+  left:0;
+  float:left;
+  position:relative;
+  background: linear-gradient(rgba(70, 130, 180, 0.6), rgba(70, 130, 180, 0.6)), url('bar.jpg');
+}
+
+.bar:hover {
+  background:none;
+  background-image:url('bar.jpg');
+}
+
+footer ul{
+  display:inline-block;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  color:#A4B4BF;
+}
+footer li{
+  display:inline-block;
+  margin-top:0.8em;
+  margin-bottom:0.2em;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+footer ul li:nth-child(2),footer ul li:nth-child(3),footer ul li:nth-child(4){
+  border-right: 1px solid #A4B4BF;
+  padding-left:0.5em;
+  padding-right:0.5em;
+}
+footer ul li:nth-child(5){
+  padding-left:0.5em;
+}
+footer ul li:nth-child(4){
+  margin-left:20em;
+}
+footer a{
+  color:#A4B4BF;
+  text-decoration:none;
+  font-size:12px;
+}
+.logo {
+  margin-top:14px;
+  margin-left:100px;
+}
+
+@media screen and (max-width:320px) {
+  header {
+    height:300px;
+  }
+}
