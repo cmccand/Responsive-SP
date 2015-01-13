@@ -116,37 +116,6 @@ aside {
   vertical-align:top;
 }
 
-aside .sidebar1 {
-  width:100px;
-  height:80px;
-  text-align:center;
-  margin-left:42%;
-  margin-top:5px;
-}
-
-aside span {
-  margin-left:42%;
-  text-align:center;
-  font-family: 'Oswald', sans-serif;
-  color: #1E72B2;
-  font-weight:lighter;
-}
-
-aside ul{
-  color:silver;
-  padding:0;
-  width: 250px;
-  list-style-type:none;
-  margin-left:35px;
-  margin-top:2px;
-}
-
-aside li {
-  display: inline;
-  font-family: 'Oswald', sans-serif;
-  font-size:15px;
-}
-
 aside img {
   margin-top:40px;
   width: 250px;
@@ -190,16 +159,14 @@ section,p {
 footer {
   border-top: solid 1px;
   border-color:#d3d3d3;
-  width:100%
+  width:100%;
   height: 150px;
   padding-top:50px;
 }
 
 /*footer a {
 -webkit-filter: opacity(30%) brightness(110%);
-
 }
-
 footer a:hover {
 -webkit-filter:none;
 color:white;
@@ -307,7 +274,7 @@ footer ul{
 }
 footer li{
   display:inline-block;
-  margin-top:0.8em;
+  margin-top:14px;
   margin-bottom:0.2em;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
@@ -320,7 +287,7 @@ footer ul li:nth-child(5){
   padding-left:0.5em;
 }
 footer ul li:nth-child(4){
-  margin-left:20em;
+  margin-left:15em;
 }
 footer a{
   color:#A4B4BF;
@@ -332,8 +299,81 @@ footer a{
   margin-left:100px;
 }
 
+/******MOBILE RESPONSIVE****/
+
 @media screen and (max-width:320px) {
   header {
-    height:300px;
+    height:200px;
+    background size:320px 200px;
   }
+
+  header > div,ul {
+    display:none;
+  }
+
+  section {
+    width:100%
+  }
+
+  aside {
+    display:block;
+  }
+
+  .photobar {
+    margin-left: 10%;
+    height:650px;
+    width:80%;
+  }
+
+  .photobar>div {
+    height:200px;
+    width:100%;
+  }
+  .surfergirl {
+    display:none;
+  }
+
+  aside .sidebar1 {
+    width:100px;
+    height:80px;
+    text-align:center;
+    margin-left:42%;
+    margin-top:5px;
+  }
+
+  aside span {
+    margin-left:42%;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    color: #1E72B2;
+    font-weight:lighter;
+  }
+
+  aside ul{
+    color:silver;
+    padding:0;
+    width: 250px;
+    list-style-type:none;
+    margin-left:35px;
+    margin-top:2px;
+  }
+
+  aside li {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size:15px;
+  }
+
+  h1 {
+    width: 100%;
+    display:block;
+    color: #083452;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 52px;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+    margin:0;
+  }
+
 }
