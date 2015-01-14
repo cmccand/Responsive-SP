@@ -12,7 +12,7 @@ header {
 header h1 {
   display:block;
   margin:0;
-  padding-top:220px;
+  padding-top:200px;
   text-align:center;
   color:white;
 }
@@ -23,35 +23,55 @@ header p {
   font-size:14px;
 }
 
+.surflogo {
+  float:left;
+  width: 4%;
+  height:35px;
+  padding-left: 12%;
+  padding-top:10px;
+}
 
 header h4 {
-  margin-left: 10%;
-  margin-top: 20px;
+  margin:0;
   float: left;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-transform:uppercase;
   color: #083452;
+  padding-left: 1%;
+  padding-top:20px;
 }
 
-nav ul {
+header>nav>ul {
   list-style-type: none;
-  margin-right: 8%;
+  width:20%;
+  margin:0;
+  padding-right:10%;
+  padding-top:25px;
+  float:right;
 }
 
-nav ul li {
+header>nav>ul>li {
   display: inline;
-  float: right;
   padding:10px;
-  text-decoration: none;
-  margin-top: 8px;
   font-family: 'Oswald', sans-serif;
+  font-weight:600;
   letter-spacing:-4;
+}
+
+.mobile {
+  display:none;
 }
 
 a {
   text-decoration: none;
   color: #083452;
+  margin:0;
+  display:inline;
+}
+
+body {
+  margin:0;
 }
 
 h1 {
@@ -103,7 +123,7 @@ h1 {
 }
 
 section {
-  width: 55%;
+  width: 56%;
   margin:0;
   display:inline-block;
   padding:55px;
@@ -115,7 +135,7 @@ section {
 }
 
 aside {
-  width: 25%;
+  width: 24%;
   margin:0;
   padding: 10px;
   display:inline-block;
@@ -295,11 +315,11 @@ footer li{
 }
 footer ul li:nth-child(2),footer ul li:nth-child(3),footer ul li:nth-child(4){
   border-right: 1px solid #A4B4BF;
+  padding-bottom:20px;
 }
-footer ul li:nth-child(5){
-}
-footer ul li:nth-child(4){
-  padding-left:10%;
+
+footer ul li:nth-child(2){
+  padding-left:15%;
 }
 footer a {
   color:#A4B4BF;
@@ -308,34 +328,152 @@ footer a {
 }
 .copyright {
   padding-left:0;
+  padding-bottom:15px;
 }
 
 .logo {
   margin:0;
-  padding-top:20px;
+  padding-top:15px;
   padding-left:9%;
 
 }
 
+
 /******MOBILE RESPONSIVE****/
 
 @media screen and (max-width:320px) {
+
   header {
     height:200px;
-    background size:320px 200px;
-    margin-bottom:50px;
+    width:320px;
+    background-repeat:none;
+    background-size:cover;
   }
 
-  header > div,ul {
+  header h4 {
     display:none;
   }
 
+  header nav {
+    display:none;
+  }
+
+  .mobile {
+    vertical-align:top;
+    display:block;
+    padding:10px;
+  }
+  .mobile a {
+    display:inline-block;
+  }
+
+  .surflogo {
+    height:50px;
+    width:15%;
+    float:none;
+    padding:10px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+  }
+
+  header>nav>ul {
+    float:none;
+    margin:0;
+    display:block;
+  }
+
+  header>nav {
+    text-align:center;
+    margin:0 auto;
+  }
+
+  header h1 {
+  margin:0;
+  padding:10px;
+  padding-bottom:0;
+  text-align:center;
+  font-size:32px;
+  color:white;
+  letter-spacing:-2px;
+  }
+
+  header p {
+    font-size:12px;
+    margin:0;
+  }
+
   section {
-    width:100%
+    width:100%;
+    padding:5%;
+  }
+
+  section h1 {
+    width: 100%;
+    display:block;
+    color: #083452;
+    font-family: 'Six Caps', sans-serif;
+    font-size: 42px;
+    font-weight:600;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    margin:0;
+    padding-top:40px;
   }
 
   aside {
     display:block;
+    width:100%;
+    text-align:center;
+  }
+
+  .authorpic {
+    margin:0;
+  }
+
+  aside .sidebar1 {
+    width:100px;
+    height:80px;
+    padding-top:40px;
+  }
+
+  aside ul{
+    color:silver;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+  }
+
+  aside li {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size:15px;
+  }
+
+  aside img {
+    margin:0;
+    width: 100%;
+    height: 270px;
+    padding:10px;
+  }
+
+  footer {
+    border-top: solid 1px;
+    border-color:#d3d3d3;
+    width:100%;
+    height: 150px;
+    padding-top:50px;
+    text-align:center;
+  }
+
+  footer h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size:28px;
+    color: #083452;
+    margin:0;
+    padding-left:5px;
+    padding-bottom:2px;
+    letter-spacing:-2px;
   }
 
   .photobar {
@@ -353,78 +491,31 @@ footer a {
     display:none;
   }
 
-  aside .sidebar1 {
-    width:100px;
-    height:80px;
-    text-align:center;
-    margin-left:42%;
-    margin-top:5px;
-  }
-
-  aside span {
-    margin-left:42%;
-    text-align:center;
-    font-family: 'Oswald', sans-serif;
-    color: #1E72B2;
-    font-weight:lighter;
-  }
-
-  aside ul{
-    color:silver;
-    padding:0;
-    width: 250px;
-    list-style-type:none;
-    margin-left:35px;
-    margin-top:2px;
-  }
-
-  aside li {
-    display: inline;
-    font-family: 'Oswald', sans-serif;
-    font-size:15px;
-  }
-
-  h1 {
-    width: 100%;
-    display:block;
-    color: #083452;
-    font-family: 'Six Caps', sans-serif;
-    font-size: 52px;
-    font-weight:400;
-    text-transform: uppercase;
-    letter-spacing: -5px;
-    margin:0;
-  }
-
   .bar {
     border-bottom:solid white 70px;
   }
 
-  aside h3 {
-    color:#1A69B0;
-    margin-bottom:0;
-    margin-top:30px;
-    width:300px;
+  footer ul li:nth-child(2){
+    padding-left:0;
+  }
+
+  .copyright {
+    padding-left:0;
+    padding-bottom:15px;
+  }
+
+  .logo {
+    margin:0;
+    padding-top:15px;
+    padding-left:0;
+
+  }
+
+  .byline img, h6, .sidebarp, aside h4{
     display:none;
   }
 
-  .sidebarp {
-    display:none;
-  }
-
-  .byline img{
-    display:none;
-  }
-
-  .byline h6 {
-    display:none;
-  }
 
   .byline p {
     margin-left:5%;
   }
-
-  .byline a {
-
-  }
-}
