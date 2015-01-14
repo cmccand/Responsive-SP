@@ -193,23 +193,23 @@ footer {
 
 footer h1 {
   font-family: 'Oswald', sans-serif;
-  font-size:31px;
-  color: #1E72B2;
+  font-size:40px;
+  color: #083452;
+  margin:0;
+  padding:20px;
   text-align:center;
-  margin-top:0;
-  margin-bottom:40px;
-  margin-left: 8px;
-  padding:0;
+  letter-spacing:0em;
 }
 
 .photobar>div {
-  height:320px;
+  height:270px;
   width:25%;
+  position:relative;
 }
 
 .photobar {
   background-color:#083452;
-  height:400px;
+  height:360px;
 }
 
 footer p {
@@ -218,9 +218,9 @@ footer p {
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
   font-weight:bold;
-  margin-left:8px;
+  margin:0;
   bottom:0;
-  margin-bottom: 10px;
+  left:0;
   letter-spacing:-.05em;
 }
 
@@ -284,34 +284,37 @@ footer ul{
   display:inline-block;
   margin:0;
   padding:0;
+  width:80%;
   list-style-type:none;
   color:#A4B4BF;
 }
 footer li{
   display:inline-block;
-  margin-top:14px;
-  margin-bottom:0.2em;
+  margin:0;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 footer ul li:nth-child(2),footer ul li:nth-child(3),footer ul li:nth-child(4){
   border-right: 1px solid #A4B4BF;
-  padding-left:0.5em;
-  padding-right:0.5em;
 }
 footer ul li:nth-child(5){
-  padding-left:0.5em;
 }
 footer ul li:nth-child(4){
-  margin-left:15em;
+  padding-left:10%;
 }
-footer a{
+footer a {
   color:#A4B4BF;
   text-decoration:none;
   font-size:12px;
 }
+.copyright {
+  padding-left:0;
+}
+
 .logo {
-  margin-top:14px;
-  margin-left:100px;
+  margin:0;
+  padding-top:20px;
+  padding-left:9%;
+
 }
 
 /******MOBILE RESPONSIVE****/
